@@ -30,7 +30,7 @@ const { CanvasSenpai } = require("canvas-senpai")
 const canva = new CanvasSenpai();
 const snekfetch = require("snekfetch")
 const translate = require('google-translate-api');
-const { emotes , emoji} =require("./config.json")
+
 let cooldown = new Set();
 let cdseconds = 3;
 const Discord = require('discord.js')
@@ -44,7 +44,7 @@ const { Client, MessageEmbed }  = require('discord.js');
 
 
 
-const yts = require('yt-search')
+
 
 client.queue = new Map();
 client.vote = new Map();
